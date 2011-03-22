@@ -1,0 +1,1 @@
+﻿var jpegOptions = new JPEGSaveOptions();jpegOptions.quality = 1;var fold = "~/Desktop";app.activeDocument.saveAs(new File(fold + "/Output" + 1 + ".jpg"), jpegOptions);
